@@ -9,12 +9,15 @@ type Props = {}
 const ProfileCard: React.FC<Props> = () => {
   return (
     <StyledWrapper>
-      <div className="title">
-        Profile
-      </div>
+      <div className="title">Profile</div>
       <div className="content">
         <div className="top">
-          <Image src={CONFIG.profile.image} fill alt="" />
+          <Image
+            className="profile-img"
+            src={CONFIG.profile.image}
+            fill
+            alt=""
+          />
         </div>
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
@@ -48,7 +51,14 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
-      width: 80%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .profile-img {
+        width: 80%;
+        height: 80%;
+      }
       &:after {
         content: "";
         display: block;
