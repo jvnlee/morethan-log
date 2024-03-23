@@ -8,7 +8,7 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
   return (
     <StyledWrapper>
       <div className="top">
-        <Emoji>🔎</Emoji> Search
+        Search
       </div>
       <input
         className="mid"
@@ -31,6 +31,7 @@ const StyledWrapper = styled.div`
   > .top {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
+    font-weight: bold;
   }
   > .mid {
     padding-top: 0.5rem;
