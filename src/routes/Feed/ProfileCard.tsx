@@ -16,7 +16,7 @@ const ProfileCard: React.FC<Props> = () => {
             src={CONFIG.profile.image}
             fill
             alt=""
-            style={{ width: "90%", height: "90%" }}
+            style={{ position: "relative", width: "90%", height: "90%" }}
           />
         </div>
         <div className="mid">
