@@ -13,10 +13,10 @@ const ProfileCard: React.FC<Props> = () => {
       <div className="content">
         <div className="top">
           <Image
-            className="profile-img"
             src={CONFIG.profile.image}
             fill
             alt=""
+            style={{ width: "90%", height: "90%" }}
           />
         </div>
         <div className="mid">
@@ -55,11 +55,6 @@ const StyledWrapper = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      .profile-img {
-        position: relative;
-        width: 90%;
-        height: 90%;
-      }
       &:after {
         content: "";
         display: block;
@@ -83,8 +78,7 @@ const StyledWrapper = styled.div`
         color: ${({ theme }) => theme.colors.gray11};
       }
       .bio {
-        margin-bottom: 0.5rem;
-        font-size: 0.875rem;
+        font-size: 1rem;
         line-height: 1.5rem;
       }
     }
