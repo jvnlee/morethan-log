@@ -31,7 +31,7 @@ export default ProfileCard
 const StyledWrapper = styled.div`
   > .title {
     padding: 0.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.65rem;
     font-weight: bold;
   }
   > .content {
@@ -48,7 +48,7 @@ const StyledWrapper = styled.div`
     }
     .top {
       position: relative;
-      width: 100%;
+      width: 80%;
       &:after {
         content: "";
         display: block;
@@ -63,7 +63,6 @@ const StyledWrapper = styled.div`
       .name {
         font-size: 1.25rem;
         line-height: 1.75rem;
-        font-style: italic;
         font-weight: 700;
       }
       .role {

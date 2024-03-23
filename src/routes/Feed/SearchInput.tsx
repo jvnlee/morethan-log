@@ -13,7 +13,7 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
       <input
         className="mid"
         type="text"
-        placeholder="Search Keyword..."
+        placeholder="Search by keyword"
         {...props}
       />
     </StyledWrapper>
@@ -30,7 +30,7 @@ const StyledWrapper = styled.div`
   }
   > .top {
     padding: 0.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.65rem;
     font-weight: bold;
   }
   > .mid {

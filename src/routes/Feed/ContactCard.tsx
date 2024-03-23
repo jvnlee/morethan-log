@@ -23,7 +23,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
+            <div className="name">GitHub</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
@@ -33,7 +33,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <div className="name">Instagram</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -44,7 +44,7 @@ const ContactCard: React.FC = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">Email</div>
           </a>
         )}
         {/* {CONFIG.profile.linkedin && (
@@ -66,7 +66,7 @@ export default ContactCard
 
 const StyledTitle = styled.div`
   padding: 0.25rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.65rem;
   font-weight: bold;
 `
 const StyledWrapper = styled.div`

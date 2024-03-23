@@ -58,7 +58,7 @@ const StyledWrapper = styled.div`
   .top {
     display: none;
     padding: 0.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.65rem;
     font-weight: bold;
 
     @media (min-width: 1024px) {
