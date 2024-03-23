@@ -14,7 +14,7 @@ const ThemeToggle: React.FC<Props> = () => {
 
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+      {scheme === "light" ? "Light" : "Dark"}
     </StyledWrapper>
   )
 }
@@ -23,4 +23,6 @@ export default ThemeToggle
 
 const StyledWrapper = styled.div`
   cursor: pointer;
+  font-size: 0.875rem;
+  color: ${({ theme }) => theme.colors.gray11};
 `
