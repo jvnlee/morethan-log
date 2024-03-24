@@ -93,4 +93,7 @@ const StyledWrapper = styled.div`
     font-size: 1rem;
     opacity: 0.5;
   }
+  .notion-hr {
+    border: 1px solid #3e3e3e;
+  }
 `
