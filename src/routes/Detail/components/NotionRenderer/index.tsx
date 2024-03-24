@@ -96,4 +96,7 @@ const StyledWrapper = styled.div`
   .notion-hr {
     border: 1px solid #3e3e3e;
   }
+  .notion-link {
+    word-break: break-all;
+  }
 `
