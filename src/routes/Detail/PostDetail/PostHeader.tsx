@@ -68,9 +68,10 @@ export default PostHeader
 
 const StyledWrapper = styled.div`
   .title {
-    font-size: 1.875rem;
+    font-size: 2rem;
     line-height: 2.25rem;
     font-weight: 700;
+    margin-top: 20px;
   }
   nav {
     margin-top: 1.5rem;
