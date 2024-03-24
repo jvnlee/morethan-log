@@ -86,7 +86,11 @@ const StyledWrapper = styled.div`
   .notion-page {
     padding: 0;
   }
+  .notion-code {
+    background-color: #181818;
+  }
   .notion-quote {
     font-size: 1rem;
+    opacity: 0.5;
   }
 `
